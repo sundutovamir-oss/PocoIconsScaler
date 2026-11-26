@@ -1,6 +1,7 @@
 package com.custom.pocoiconscaler
 
 import android.annotation.SuppressLint
+import android.app.Activity
 import android.content.Context
 import android.os.Bundle
 import android.view.Gravity
@@ -9,9 +10,8 @@ import android.widget.LinearLayout
 import android.widget.SeekBar
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : Activity() {
 
     @SuppressLint("WorldReadableFiles", "SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -83,3 +83,4 @@ class MainActivity : AppCompatActivity() {
         setContentView(layout)
     }
 }
+
