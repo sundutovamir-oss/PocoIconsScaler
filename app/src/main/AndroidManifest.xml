@@ -4,7 +4,7 @@
     <application
         android:allowBackup="true"
         android:label="PocoIconScaler"
-        android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+        android:theme="@android:style/Theme.DeviceDefault.DayNight">
 
         <meta-data
             android:name="xposedmodule"
@@ -33,3 +33,4 @@
     </application>
 
 </manifest>
+
