@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.custom.pocoiconscaler"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.custom.pocoiconscaler"
