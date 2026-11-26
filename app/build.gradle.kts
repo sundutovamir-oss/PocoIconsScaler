@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.custom.pocoiconscaler"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.custom.pocoiconscaler"
@@ -15,11 +15,6 @@ android {
         versionName = "1.0"
     }
 
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-        }
-    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -31,7 +26,5 @@ android {
 
 dependencies {
     compileOnly("de.robv.android.xposed:api:82")
-    implementation("androidx.core:core-ktx:1.12.0")
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.11.0")
 }
+
